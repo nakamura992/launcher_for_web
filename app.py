@@ -23,7 +23,7 @@ class TrayIcon(tk.Label):
     def __init__(self, master):
         super().__init__(master)
         self.master = master
-        self.icon = tk.PhotoImage(file="icon.png")
+        self.icon = tk.PhotoImage(file="images/icon/claude_icon.png")
         self.config(image=self.icon)
         self.bind("<Button-1>", self.open_website)
         self.master.overrideredirect(True)
@@ -41,7 +41,7 @@ class TrayIcon(tk.Label):
         webbrowser.open("https://claude.ai/chat/")
 
     def stop(self):
-        
+
         self.master.destroy()
 
 if __name__ == "__main__":
