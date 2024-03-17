@@ -29,6 +29,7 @@ class TrayIcon(tk.Label):
         self.master.overrideredirect(True)
         self.master.withdraw()
         self.master.after(300, self.place_window)
+        
 
     def place_window(self):
         x = self.master.winfo_pointerx() - 16
