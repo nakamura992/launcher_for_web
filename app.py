@@ -38,7 +38,7 @@ class TrayIcon(tk.Label):
         self.master.after(10, self.place_window)
 
     def open_website(self, event):
-        webbrowser.open("https://www.example.com")
+        webbrowser.open("https://claude.ai/chat/")
 
     def stop(self):
         self.master.destroy()
