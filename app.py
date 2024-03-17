@@ -41,6 +41,7 @@ class TrayIcon(tk.Label):
         webbrowser.open("https://claude.ai/chat/")
 
     def stop(self):
+        
         self.master.destroy()
 
 if __name__ == "__main__":
