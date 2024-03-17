@@ -1,5 +1,5 @@
-# launcher_for_web
-## usernameとpassword
+## username と password
+
 ### mac
 
     export CHATGPT_USERNAME='your_username'
